@@ -10,8 +10,6 @@ matrix:
    - os: linux
      arch: amd64
    - os: linux
-     arch: ppc64le
-   - os: linux
-     arch: arm64
-   - os: osx
-     arch: amd64
+     arch: arm64-graviton2
+     virt: lxd
+     group: edge
